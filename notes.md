@@ -16,6 +16,14 @@ flask init-db
 ```
 
 
+Run Coverage
+
+```bash
+coverage run --omit 'venv/*' -m pytest
+coverage report 
+coverage html
+```
+
 https://flask.palletsprojects.com/en/2.0.x/tutorial/tests/
 
 tests/test_auth.py
